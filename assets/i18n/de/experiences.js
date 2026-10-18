@@ -3,8 +3,8 @@
   lang: "de",
   bundle: "experiences",
   s: {
-    "756d598f": "Erlebnisse in Sri Lanka: Safari, Zug, Surfen &amp; mehr | Damneth Tours &amp; Travels",
-    "a5754b07": "Yala-Safari, die Zugfahrt nach Ella, Surfen, Spaziergänge durch Teeplantagen und Walbeobachtung. Fügen Sie Ihre Lieblingserlebnisse hinzu, und wir verbinden sie zu einer entspannten Route mit privatem Fahrer – kostenlos per WhatsApp geplant.",
+    "e3bb1ec6": "Aktivitäten in Sri Lanka: Safari, Zugfahrt &amp; Surfen | Damneth Tours &amp; Travels",
+    "e5afd207": "Aktivitäten in Sri Lanka: Yala-Safari, die Zugfahrt nach Ella, Surfen, Teeplantagen und Walbeobachtung – verbunden zu einer privaten Tour mit Fahrer, kostenlos per WhatsApp geplant.",
     "2a1df757": "Ein blauer Zug überquert eine steinerne Bogenbrücke im dichten Wald, von oben gesehen",
     "e7ed9210": "Die Momente, die eine Reise ausmachen. <1>Kombinieren Sie sie nach Lust und Laune.</1>",
     "3b4a9c2a": "Leoparden im Morgengrauen, der langsame Zug durchs Teeland, Ihre erste Welle, ein Spaziergang zwischen den Teepflückerinnen und Wale vor der Südküste. Fügen Sie Ihre Favoriten hinzu, und wir bauen sie in eine entspannte Route ein.",

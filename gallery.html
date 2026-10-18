@@ -10,6 +10,36 @@
   <link rel="icon" href="assets/icons/favicon-32.png" sizes="32x32" type="image/png">
   <link rel="icon" href="assets/icons/favicon-192.png" sizes="192x192" type="image/png">
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <!-- Link previews (Facebook, WhatsApp, LinkedIn, X) and search engines. Previews use the
+       English text: link-preview bots don’t run the language script. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Damneth Tours &amp; Travels">
+  <meta property="og:title" content="Gallery: Photos from Our Sri Lanka Trips">
+  <meta property="og:description" content="Photos from Sri Lanka trips with our guests: elephants, waterfalls, Sigiriya, the Nine Arches Bridge, village lunches and boat rides.">
+  <meta property="og:url" content="https://damnethtravels.com/gallery.html">
+  <meta property="og:image" content="https://damnethtravels.com/assets/images/share/share-gallery.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="A guest perched on a stilt-fishing pole at the water’s edge, with waves breaking around rocks behind">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="he_IL">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gallery: Photos from Our Sri Lanka Trips">
+  <meta name="twitter:description" content="Photos from Sri Lanka trips with our guests: elephants, waterfalls, Sigiriya, the Nine Arches Bridge, village lunches and boat rides.">
+  <meta name="twitter:image" content="https://damnethtravels.com/assets/images/share/share-gallery.jpg">
+  <meta name="twitter:image:alt" content="A guest perched on a stilt-fishing pole at the water’s edge, with waves breaking around rocks behind">
+  <!-- Language versions. The canonical link is added by the language script below so each
+       version names itself (a fixed English one would hide the others from Google). -->
+  <link rel="alternate" hreflang="en" href="https://damnethtravels.com/gallery.html">
+  <link rel="alternate" hreflang="de" href="https://damnethtravels.com/gallery.html?lang=de">
+  <link rel="alternate" hreflang="fr" href="https://damnethtravels.com/gallery.html?lang=fr">
+  <link rel="alternate" hreflang="ru" href="https://damnethtravels.com/gallery.html?lang=ru">
+  <link rel="alternate" hreflang="he" href="https://damnethtravels.com/gallery.html?lang=he">
+  <link rel="alternate" hreflang="x-default" href="https://damnethtravels.com/gallery.html">
   <link rel="preload" href="assets/fonts/poppins-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/css/tokens.css">
@@ -26,6 +56,12 @@
       }
       var query = /[?&]lang=([a-z]{2})(?:&|$)/.exec(location.search);
       var lang = query && query[1];
+      var page = h.getAttribute('data-i18n-page');
+      var canonical = d.createElement('link');
+      canonical.rel = 'canonical';
+      canonical.href = 'https://damnethtravels.com/' + (page === 'index' ? '' : page + '.html') +
+        (['de', 'fr', 'ru', 'he'].indexOf(lang) < 0 ? '' : '?lang=' + lang);
+      d.head.appendChild(canonical);
       if (!lang) try { lang = localStorage.getItem('damneth-lang'); } catch (e) {}
       if (['de', 'fr', 'ru', 'he'].indexOf(lang) < 0) return;
       h.lang = lang;

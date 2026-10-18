@@ -3,13 +3,89 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title data-i18n="31bab6b4">Damneth Tours &amp; Travels | Private Driver Tours &amp; Transfers in Sri Lanka</title>
-  <meta name="description" content="Private driver tours, airport transfers and tailor-made itineraries across Sri Lanka. Free planning on WhatsApp and 100% fixed-price quotes with no hidden fuel or toll charges." data-i18n-attr="content=013e0228">
+  <title data-i18n="e37a148b">Private Driver Sri Lanka &amp; Tailor-Made Tours | Damneth Tours &amp; Travels</title>
+  <meta name="description" content="Private driver tours, tailor-made itineraries and airport transfers across Sri Lanka. Free planning on WhatsApp, fixed prices, no hidden fuel or toll fees." data-i18n-attr="content=515acc32">
   <meta name="theme-color" content="#0d5c75">
   <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
   <link rel="icon" href="assets/icons/favicon-32.png" sizes="32x32" type="image/png">
   <link rel="icon" href="assets/icons/favicon-192.png" sizes="192x192" type="image/png">
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <!-- Link previews (Facebook, WhatsApp, LinkedIn, X) and search engines. Previews use the
+       English text: link-preview bots don’t run the language script. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Damneth Tours &amp; Travels">
+  <meta property="og:title" content="Private Driver Sri Lanka &amp; Tailor-Made Tours">
+  <meta property="og:description" content="Private driver tours, tailor-made itineraries and airport transfers across Sri Lanka. Free planning on WhatsApp, fixed prices, no hidden fuel or toll fees.">
+  <meta property="og:url" content="https://damnethtravels.com/">
+  <meta property="og:image" content="https://damnethtravels.com/assets/images/share/share-home.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="A small white van on a winding road through bright green tea plantations in Sri Lanka’s hill country">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="he_IL">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Private Driver Sri Lanka &amp; Tailor-Made Tours">
+  <meta name="twitter:description" content="Private driver tours, tailor-made itineraries and airport transfers across Sri Lanka. Free planning on WhatsApp, fixed prices, no hidden fuel or toll fees.">
+  <meta name="twitter:image" content="https://damnethtravels.com/assets/images/share/share-home.jpg">
+  <meta name="twitter:image:alt" content="A small white van on a winding road through bright green tea plantations in Sri Lanka’s hill country">
+  <!-- Language versions. The canonical link is added by the language script below so each
+       version names itself (a fixed English one would hide the others from Google). -->
+  <link rel="alternate" hreflang="en" href="https://damnethtravels.com/">
+  <link rel="alternate" hreflang="de" href="https://damnethtravels.com/?lang=de">
+  <link rel="alternate" hreflang="fr" href="https://damnethtravels.com/?lang=fr">
+  <link rel="alternate" hreflang="ru" href="https://damnethtravels.com/?lang=ru">
+  <link rel="alternate" hreflang="he" href="https://damnethtravels.com/?lang=he">
+  <link rel="alternate" hreflang="x-default" href="https://damnethtravels.com/">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "TravelAgency",
+          "@id": "https://damnethtravels.com/#business",
+          "name": "Damneth Tours & Travels",
+          "alternateName": "Damneth Travels & Tours",
+          "url": "https://damnethtravels.com/",
+          "logo": "https://damnethtravels.com/assets/images/logo-seal-432.webp",
+          "image": "https://damnethtravels.com/assets/images/share/share-home.jpg",
+          "description": "Private driver tours, tailor-made itineraries and airport transfers across Sri Lanka.",
+          "telephone": "+94 77 398 0966",
+          "email": "damnethtoursandtravels@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "LK"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Sri Lanka"
+          },
+          "sameAs": [
+            "https://www.instagram.com/damneth_tours_and_travels"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://damnethtravels.com/#website",
+          "name": "Damneth Tours & Travels",
+          "url": "https://damnethtravels.com/",
+          "inLanguage": [
+            "en",
+            "de",
+            "fr",
+            "ru",
+            "he"
+          ],
+          "publisher": {
+            "@id": "https://damnethtravels.com/#business"
+          }
+        }
+      ]
+    }
+  </script>
   <link rel="preload" href="assets/fonts/poppins-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/css/tokens.css">
@@ -26,6 +102,12 @@
       }
       var query = /[?&]lang=([a-z]{2})(?:&|$)/.exec(location.search);
       var lang = query && query[1];
+      var page = h.getAttribute('data-i18n-page');
+      var canonical = d.createElement('link');
+      canonical.rel = 'canonical';
+      canonical.href = 'https://damnethtravels.com/' + (page === 'index' ? '' : page + '.html') +
+        (['de', 'fr', 'ru', 'he'].indexOf(lang) < 0 ? '' : '?lang=' + lang);
+      d.head.appendChild(canonical);
       if (!lang) try { lang = localStorage.getItem('damneth-lang'); } catch (e) {}
       if (['de', 'fr', 'ru', 'he'].indexOf(lang) < 0) return;
       h.lang = lang;

@@ -3,8 +3,8 @@
   lang: "fr",
   bundle: "experiences",
   s: {
-    "756d598f": "Expériences au Sri Lanka&nbsp;: safari, train, surf et plus | Damneth Tours &amp; Travels",
-    "a5754b07": "Safari à Yala, train d’Ella, surf, balades dans les plantations de thé et observation des baleines. Ajoutez vos expériences préférées et nous les relions en un itinéraire simple avec chauffeur privé, préparé gratuitement sur WhatsApp.",
+    "e3bb1ec6": "Que faire au Sri Lanka&nbsp;: safari, train et surf | Damneth Tours &amp; Travels",
+    "e5afd207": "Que faire au Sri Lanka&nbsp;: safari à Yala, train d’Ella, surf, plantations de thé et observation des baleines, réunis en un circuit privé avec chauffeur, préparé gratuitement sur WhatsApp.",
     "2a1df757": "Un train bleu franchissant un pont de pierre en arches au milieu d’une forêt dense, vu d’en haut",
     "e7ed9210": "Les moments qui font le voyage. <1>Composez-les à votre goût.</1>",
     "3b4a9c2a": "Des léopards à l’aube, le train lent à travers le pays du thé, votre première vague, une balade parmi les cueilleuses de thé et des baleines au large de la côte sud. Ajoutez vos préférées et nous les intégrons à un itinéraire facile.",

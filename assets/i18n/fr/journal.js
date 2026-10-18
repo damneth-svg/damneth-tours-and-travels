@@ -3,8 +3,8 @@
   lang: "fr",
   bundle: "journal",
   s: {
-    "143c2fab": "Carnet de voyage Sri Lanka&nbsp;: conseils, culture et idées d’itinéraires | Damneth Tours &amp; Travels",
-    "9e54215a": "Conseils pratiques pour voyager au Sri Lanka, par une équipe locale de chauffeurs-guides&nbsp;: chauffeur privé ou transports en commun, meilleure période pour partir, le train de Kandy à Ella, usages dans les temples et idées d’itinéraires.",
+    "8f41c71c": "Conseils de voyage au Sri Lanka et idées d’itinéraires | Damneth Tours &amp; Travels",
+    "649ff708": "Conseils pour voyager au Sri Lanka, par une équipe locale de chauffeurs-guides&nbsp;: chauffeur privé ou transports en commun, meilleure période, le train de Kandy à Ella et usages dans les temples.",
     "dcf63cdf": "Pentes de montagne vertes et escarpées sous un ciel bleu traversé de nuages",
     "8fef0e63": "Notes de voyage au Sri Lanka, <1>par ceux qui sillonnent ses routes.</1>",
     "a13b9749": "Des conseils honnêtes, un peu de culture et des idées d’itinéraires pour vous aider à préparer votre voyage. Si vous ne trouvez pas la réponse à votre question ici, posez-la-nous sur WhatsApp. L’aide à la préparation est toujours gratuite.",

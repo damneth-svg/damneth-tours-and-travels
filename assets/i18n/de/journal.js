@@ -3,8 +3,8 @@
   lang: "de",
   bundle: "journal",
   s: {
-    "143c2fab": "Sri-Lanka-Reisejournal: Tipps, Kultur &amp; Routenideen | Damneth Tours &amp; Travels",
-    "9e54215a": "Praktische Sri-Lanka-Reisetipps von einem einheimischen Team aus Fahrer-Guides: privater Fahrer oder öffentliche Verkehrsmittel, die beste Reisezeit, der Zug von Kandy nach Ella, Verhalten im Tempel und Routenideen.",
+    "8f41c71c": "Sri-Lanka-Reisetipps &amp; Routenideen | Damneth Tours &amp; Travels",
+    "649ff708": "Sri-Lanka-Reisetipps von einem einheimischen Team aus Fahrer-Guides: privater Fahrer oder öffentliche Verkehrsmittel, die beste Reisezeit, der Zug von Kandy nach Ella und Verhalten im Tempel.",
     "dcf63cdf": "Steile grüne Berghänge unter blauem Himmel mit vorbeiziehenden Wolken",
     "8fef0e63": "Reisenotizen aus Sri Lanka, <1>von denen, die hier täglich unterwegs sind.</1>",
     "a13b9749": "Ehrliche Tipps, ein bisschen Kultur und Routenideen für Ihre Planung. Wenn Ihre Frage hier nicht beantwortet wird, fragen Sie uns per WhatsApp. Die Hilfe bei der Planung ist immer kostenlos.",

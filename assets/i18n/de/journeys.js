@@ -3,8 +3,8 @@
   lang: "de",
   bundle: "journeys",
   s: {
-    "fa4337c0": "Beispielrouten für Sri Lanka über 7, 10 &amp; 14 Tage | Damneth Tours &amp; Travels",
-    "afa2970c": "Beispiel-Rundreisen über 7, 10 und 14 Tage mit privatem Fahrer durch Sri Lanka, mit Tag-für-Tag-Plänen. Festpreisangebote ohne versteckte Kosten für Sprit oder Maut, kostenlos per WhatsApp geplant.",
+    "c7334a9e": "Sri-Lanka-Rundreisen: Routen für 7, 10 &amp; 14 Tage | Damneth Tours &amp; Travels",
+    "dbc81af7": "Beispielrouten für Sri Lanka über 7, 10 und 14 Tage mit privatem Fahrer, Tag für Tag. Festpreise ohne versteckte Kosten für Sprit oder Maut, kostenlos per WhatsApp angepasst.",
     "800c04a0": "Luftaufnahme einer Straße, die sich über einen bewaldeten Bergrücken zwischen Bergen windet",
     "5ea107b5": "Drei Wege, die Insel zu sehen. <1>Alle mit eigenem Fahrer.</1>",
     "5753af32": "Beispiel-Rundreisen über 7, 10 und 14 Tage in einem bequemen Privatfahrzeug mit einem einheimischen Fahrer-Guide. Übernehmen Sie eine davon wie sie ist oder als Ausgangspunkt, den wir gemeinsam per WhatsApp gestalten – kostenlos.",

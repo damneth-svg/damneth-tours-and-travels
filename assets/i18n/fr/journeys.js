@@ -3,8 +3,8 @@
   lang: "fr",
   bundle: "journeys",
   s: {
-    "fa4337c0": "Exemples de circuits de 7, 10 et 14 jours au Sri Lanka | Damneth Tours &amp; Travels",
-    "afa2970c": "Exemples de circuits de 7, 10 et 14 jours avec chauffeur privé au Sri Lanka, avec programme jour par jour. Devis à prix fixe, sans frais cachés de carburant ni de péage, préparés gratuitement sur WhatsApp.",
+    "c7334a9e": "Itinéraires de 7, 10 et 14 jours au Sri Lanka | Damneth Tours &amp; Travels",
+    "dbc81af7": "Exemples d’itinéraires de 7, 10 et 14 jours au Sri Lanka avec chauffeur privé, jour par jour. Prix fixes, sans frais cachés de carburant ni de péage, adaptés gratuitement sur WhatsApp.",
     "800c04a0": "Vue aérienne d’une route serpentant sur une crête boisée entre les montagnes",
     "5ea107b5": "Trois façons de découvrir l’île. <1>Toutes avec votre chauffeur.</1>",
     "5753af32": "Des exemples de circuits de 7, 10 et 14 jours dans un véhicule privé confortable avec un chauffeur-guide local. Suivez-en un tel quel, ou partez-en pour construire ensemble le vôtre sur WhatsApp, gratuitement.",

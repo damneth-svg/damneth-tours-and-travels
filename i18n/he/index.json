@@ -33,13 +33,13 @@
     "status": "draft – needs native review",
     "about": "Text on index.html. Translate the \"he\" value of each entry. Keep the numbered markers exactly: <1>…</1> wraps words that are a link or styled, <2/> stands for an icon, price or number. Keep &amp; &lt; &gt; &nbsp; as they are. Leave a value empty to show the English."
   },
-  "31bab6b4": {
-    "en": "Damneth Tours &amp; Travels | Private Driver Tours &amp; Transfers in Sri Lanka",
-    "he": "Damneth Tours &amp; Travels | טיולים פרטיים עם נהג והעברות בסרי לנקה"
+  "e37a148b": {
+    "en": "Private Driver Sri Lanka &amp; Tailor-Made Tours | Damneth Tours &amp; Travels",
+    "he": "נהג פרטי בסרי לנקה וטיולים בהתאמה אישית | Damneth Tours &amp; Travels"
   },
-  "013e0228": {
-    "en": "Private driver tours, airport transfers and tailor-made itineraries across Sri Lanka. Free planning on WhatsApp and 100% fixed-price quotes with no hidden fuel or toll charges.",
-    "he": "טיולים פרטיים עם נהג, העברות משדה התעופה ומסלולים בהתאמה אישית בכל רחבי סרי לנקה. תכנון חינם בוואטסאפ והצעות מחיר קבועות ב־100%, בלי חיובים נסתרים על דלק או כבישי אגרה."
+  "515acc32": {
+    "en": "Private driver tours, tailor-made itineraries and airport transfers across Sri Lanka. Free planning on WhatsApp, fixed prices, no hidden fuel or toll fees.",
+    "he": "טיולים פרטיים עם נהג, מסלולים בהתאמה אישית והעברות משדה התעופה בכל רחבי סרי לנקה. תכנון חינם בוואטסאפ, מחירים קבועים, בלי חיובים נסתרים על דלק או כבישי אגרה."
   },
   "aed65dcd": {
     "en": "Private driver tours across Sri Lanka",

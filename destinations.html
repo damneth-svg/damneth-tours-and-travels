@@ -3,13 +3,43 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title data-i18n="d2bf9b87">Sri Lanka Destinations by Region | Damneth Tours &amp; Travels</title>
-  <meta name="description" content="Explore Sri Lanka by region, from the Cultural Triangle and hill country to the south and east coasts and the wildlife parks. Add the places you love and get a free, fixed-price route plan on WhatsApp." data-i18n-attr="content=c709b71b">
+  <title data-i18n="702fc76b">Places to Visit in Sri Lanka by Region | Damneth Tours &amp; Travels</title>
+  <meta name="description" content="Places to visit in Sri Lanka by region: Sigiriya, Kandy, Ella, Galle, Yala and the east coast. Pick your favourites and get a free private driver route plan." data-i18n-attr="content=213cd7a5">
   <meta name="theme-color" content="#0d5c75">
   <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
   <link rel="icon" href="assets/icons/favicon-32.png" sizes="32x32" type="image/png">
   <link rel="icon" href="assets/icons/favicon-192.png" sizes="192x192" type="image/png">
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <!-- Link previews (Facebook, WhatsApp, LinkedIn, X) and search engines. Previews use the
+       English text: link-preview bots don’t run the language script. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Damneth Tours &amp; Travels">
+  <meta property="og:title" content="Places to Visit in Sri Lanka by Region">
+  <meta property="og:description" content="Places to visit in Sri Lanka by region: Sigiriya, Kandy, Ella, Galle, Yala and the east coast. Pick your favourites and get a free private driver route plan.">
+  <meta property="og:url" content="https://damnethtravels.com/destinations.html">
+  <meta property="og:image" content="https://damnethtravels.com/assets/images/share/share-destinations.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Golden sunrise light over layers of forested hills near Ella">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="he_IL">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Places to Visit in Sri Lanka by Region">
+  <meta name="twitter:description" content="Places to visit in Sri Lanka by region: Sigiriya, Kandy, Ella, Galle, Yala and the east coast. Pick your favourites and get a free private driver route plan.">
+  <meta name="twitter:image" content="https://damnethtravels.com/assets/images/share/share-destinations.jpg">
+  <meta name="twitter:image:alt" content="Golden sunrise light over layers of forested hills near Ella">
+  <!-- Language versions. The canonical link is added by the language script below so each
+       version names itself (a fixed English one would hide the others from Google). -->
+  <link rel="alternate" hreflang="en" href="https://damnethtravels.com/destinations.html">
+  <link rel="alternate" hreflang="de" href="https://damnethtravels.com/destinations.html?lang=de">
+  <link rel="alternate" hreflang="fr" href="https://damnethtravels.com/destinations.html?lang=fr">
+  <link rel="alternate" hreflang="ru" href="https://damnethtravels.com/destinations.html?lang=ru">
+  <link rel="alternate" hreflang="he" href="https://damnethtravels.com/destinations.html?lang=he">
+  <link rel="alternate" hreflang="x-default" href="https://damnethtravels.com/destinations.html">
   <link rel="preload" href="assets/fonts/poppins-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/css/tokens.css">
@@ -26,6 +56,12 @@
       }
       var query = /[?&]lang=([a-z]{2})(?:&|$)/.exec(location.search);
       var lang = query && query[1];
+      var page = h.getAttribute('data-i18n-page');
+      var canonical = d.createElement('link');
+      canonical.rel = 'canonical';
+      canonical.href = 'https://damnethtravels.com/' + (page === 'index' ? '' : page + '.html') +
+        (['de', 'fr', 'ru', 'he'].indexOf(lang) < 0 ? '' : '?lang=' + lang);
+      d.head.appendChild(canonical);
       if (!lang) try { lang = localStorage.getItem('damneth-lang'); } catch (e) {}
       if (['de', 'fr', 'ru', 'he'].indexOf(lang) < 0) return;
       h.lang = lang;

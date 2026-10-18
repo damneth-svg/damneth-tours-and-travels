@@ -5,13 +5,13 @@
     "status": "draft – needs native review",
     "about": "Text on journeys.html. Translate the \"he\" value of each entry. Keep the numbered markers exactly: <1>…</1> wraps words that are a link or styled, <2/> stands for an icon, price or number. Keep &amp; &lt; &gt; &nbsp; as they are. Leave a value empty to show the English."
   },
-  "fa4337c0": {
-    "en": "Sample 7, 10 &amp; 14-Day Sri Lanka Itineraries | Damneth Tours &amp; Travels",
-    "he": "מסלולים לדוגמה בסרי לנקה ל־7, 10 ו־14 ימים | Damneth Tours &amp; Travels"
+  "c7334a9e": {
+    "en": "7, 10 &amp; 14-Day Sri Lanka Tour Itineraries | Damneth Tours &amp; Travels",
+    "he": "מסלולי טיול בסרי לנקה ל־7, 10 ו־14 ימים | Damneth Tours &amp; Travels"
   },
-  "afa2970c": {
-    "en": "Sample 7, 10 and 14-day private driver round trips around Sri Lanka, with day-by-day plans. Fixed-price quotes with no hidden fuel or toll charges, planned free on WhatsApp.",
-    "he": "טיולים מעגליים לדוגמה של 7, 10 ו־14 ימים עם נהג פרטי ברחבי סרי לנקה, עם תוכנית יום־אחר־יום. הצעות מחיר קבועות בלי חיובים נסתרים על דלק או אגרות, ותכנון בחינם בוואטסאפ."
+  "dbc81af7": {
+    "en": "Sample 7, 10 and 14-day Sri Lanka itineraries with a private driver, day by day. Fixed prices with no hidden fuel or toll charges, tailored free on WhatsApp.",
+    "he": "מסלולים לדוגמה בסרי לנקה ל־7, 10 ו־14 ימים עם נהג פרטי, יום אחר יום. מחירים קבועים בלי חיובים נסתרים על דלק או כבישי אגרה, והתאמה אישית בחינם בוואטסאפ."
   },
   "800c04a0": {
     "en": "Aerial view of a road winding along a forested ridge between mountains",
