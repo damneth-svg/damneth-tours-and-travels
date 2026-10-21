@@ -329,12 +329,14 @@
             media="(max-width: 63.99em) and (prefers-reduced-motion: no-preference)">
         </video>
         <script>
-          // Inline so it runs before the browser picks a source: on Save-Data or a 2G/3G connection
+          // Inline so it runs before the browser picks a source: on Save-Data or a 2G connection
           // the download never starts. main.js then sees the sources as unwanted and keeps the photo.
+          // Not on "3g": Chrome reports that for any round trip over 270 ms, which covers ordinary
+          // broadband and 4G in Sri Lanka, and the video starts streaming fine on those.
           // Wherever the video won't play, the poster goes too so it doesn't compete with the photo.
           (function (video, c) {
             var sources = video.querySelectorAll('source');
-            var skip = (c && (c.saveData || /2g|3g/.test(c.effectiveType || ''))) || matchMedia('(prefers-reduced-data: reduce)').matches;
+            var skip = (c && (c.saveData || /2g/.test(c.effectiveType || ''))) || matchMedia('(prefers-reduced-data: reduce)').matches;
             var plays = false;
             for (var i = 0; i < sources.length; i++) {
               if (skip) sources[i].media = 'not all';
