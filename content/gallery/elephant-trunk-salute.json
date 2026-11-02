@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "A trunk overhead",
+    "alt": "A guest in white standing beneath an elephant’s raised trunk, holding it up with both hands",
+    "type": "image",
+    "category": "wildlife",
+    "with_guests": true,
+    "order": 415,
+    "image": "/assets/images/gallery/gal-elephant-trunk-salute-576.webp"
+  },
+  "de": {
+    "title": "Ein Rüssel über dem Kopf",
+    "alt": "Ein Gast in Weiß steht unter dem erhobenen Rüssel eines Elefanten und hält ihn mit beiden Händen"
+  },
+  "fr": {
+    "title": "Une trompe au-dessus de la tête",
+    "alt": "Un voyageur en blanc debout sous la trompe levée d’un éléphant, qu’il soutient des deux mains"
+  },
+  "ru": {
+    "title": "Хобот над головой",
+    "alt": "Гость в белом стоит под поднятым хоботом слона и держит его обеими руками"
+  },
+  "he": {
+    "title": "חדק מעל הראש",
+    "alt": "אורח בלבן עומד מתחת לחדק המורם של פיל ומחזיק אותו בשתי ידיו"
+  }
+}

@@ -51,6 +51,7 @@
     "6ce55cdf": "Wellen brechen an dunklen Felsen neben klarem, türkisfarbenem Meer",
     "ccb2d3ea": "Ostküste",
     "003f022a": "<1/>Bewerten Sie uns auf Google<2> (öffnet in einem neuen Tab)</2>",
+    "1af64e83": "Momente aus den Reisen unserer Gäste",
     "1c66ebb3": "Planen Sie Ihre Reise",
     "9138ec51": "Ihre Rundreise durch Sri Lanka beginnt mit einer Nachricht.",
     "0a708342": "Kostenloses Angebot anfordern",

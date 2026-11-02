@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "A trunkful of water",
+    "alt": "An elephant spraying water from its trunk while a guest sits on its back in a shallow river",
+    "type": "image",
+    "category": "wildlife",
+    "with_guests": true,
+    "order": 235,
+    "image": "/assets/images/gallery/gal-elephant-spray-river-576.webp"
+  },
+  "de": {
+    "title": "Ein Rüssel voll Wasser",
+    "alt": "Ein Elefant spritzt Wasser aus seinem Rüssel, während ein Gast in einem flachen Fluss auf seinem Rücken sitzt"
+  },
+  "fr": {
+    "title": "Une trompe pleine d’eau",
+    "alt": "Un éléphant projette de l’eau avec sa trompe tandis qu’un voyageur est assis sur son dos dans une rivière peu profonde"
+  },
+  "ru": {
+    "title": "Полный хобот воды",
+    "alt": "Слон разбрызгивает воду из хобота, а гость сидит у него на спине в мелкой реке"
+  },
+  "he": {
+    "title": "חדק מלא מים",
+    "alt": "פיל מתיז מים מהחדק בזמן שאורח יושב על גבו בנהר רדוד"
+  }
+}

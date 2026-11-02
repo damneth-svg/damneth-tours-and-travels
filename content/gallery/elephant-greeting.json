@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "Meeting the elephant",
+    "alt": "Two guests standing beside an elephant, one with a hand on its trunk, the other giving a thumbs-up",
+    "type": "image",
+    "category": "wildlife",
+    "with_guests": true,
+    "order": 265,
+    "image": "/assets/images/gallery/gal-elephant-greeting-576.webp"
+  },
+  "de": {
+    "title": "Begegnung mit dem Elefanten",
+    "alt": "Zwei Gäste stehen neben einem Elefanten, einer legt die Hand auf seinen Rüssel, der andere zeigt den Daumen nach oben"
+  },
+  "fr": {
+    "title": "À la rencontre de l’éléphant",
+    "alt": "Deux voyageurs à côté d’un éléphant, l’un pose la main sur sa trompe, l’autre lève le pouce"
+  },
+  "ru": {
+    "title": "Знакомство со слоном",
+    "alt": "Двое гостей стоят рядом со слоном: один положил руку на его хобот, другой показывает большой палец"
+  },
+  "he": {
+    "title": "פוגשים את הפיל",
+    "alt": "שני אורחים עומדים ליד פיל, אחד מניח יד על החדק שלו והשני מסמן אגודל"
+  }
+}

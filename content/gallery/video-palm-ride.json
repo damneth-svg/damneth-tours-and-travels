@@ -1,0 +1,28 @@
+{
+  "en": {
+    "title": "Under the palms",
+    "alt": "Two guests riding an elephant along a dirt path under palm trees",
+    "type": "video",
+    "category": "wildlife",
+    "with_guests": true,
+    "order": 385,
+    "video": "/assets/videos/gallery/palm-ride.mp4",
+    "poster": "/assets/images/gallery/gal-video-palm-ride-480.webp"
+  },
+  "de": {
+    "title": "Unter den Palmen",
+    "alt": "Zwei Gäste reiten auf einem Elefanten einen Sandweg unter Palmen entlang"
+  },
+  "fr": {
+    "title": "Sous les palmiers",
+    "alt": "Deux voyageurs à dos d’éléphant sur un chemin de terre sous les palmiers"
+  },
+  "ru": {
+    "title": "Под пальмами",
+    "alt": "Двое гостей едут на слоне по грунтовой дороге под пальмами"
+  },
+  "he": {
+    "title": "מתחת לדקלים",
+    "alt": "שני אורחים רוכבים על פיל בשביל עפר מתחת לעצי דקל"
+  }
+}

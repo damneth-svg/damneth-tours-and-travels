@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "Scrub time",
+    "alt": "Two guests scrubbing an elephant as it lies on its side in a shallow river",
+    "type": "image",
+    "category": "wildlife",
+    "with_guests": true,
+    "order": 95,
+    "image": "/assets/images/gallery/gal-elephant-scrub-river-576.webp"
+  },
+  "de": {
+    "title": "Schrubben im Fluss",
+    "alt": "Zwei Gäste schrubben einen Elefanten, der auf der Seite in einem flachen Fluss liegt"
+  },
+  "fr": {
+    "title": "Séance de brossage",
+    "alt": "Deux voyageurs frottent un éléphant couché sur le flanc dans une rivière peu profonde"
+  },
+  "ru": {
+    "title": "Время мыть слона",
+    "alt": "Двое гостей трут слона, лежащего на боку в мелкой реке"
+  },
+  "he": {
+    "title": "זמן קרצוף",
+    "alt": "שני אורחים מקרצפים פיל ששוכב על צדו בנהר רדוד"
+  }
+}

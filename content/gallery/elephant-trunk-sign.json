@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "Trunk up for the camera",
+    "alt": "Two guests holding a Damneth Tours sign as an elephant raises its trunk above their heads",
+    "type": "image",
+    "category": "wildlife",
+    "with_guests": true,
+    "order": 25,
+    "image": "/assets/images/gallery/gal-elephant-trunk-sign-1200.webp"
+  },
+  "de": {
+    "title": "Rüssel hoch für die Kamera",
+    "alt": "Zwei Gäste halten ein Damneth-Tours-Schild, während ein Elefant seinen Rüssel über ihre Köpfe hebt"
+  },
+  "fr": {
+    "title": "Trompe levée pour la photo",
+    "alt": "Deux voyageurs tiennent une pancarte Damneth Tours pendant qu’un éléphant lève sa trompe au-dessus de leurs têtes"
+  },
+  "ru": {
+    "title": "Хобот вверх для фото",
+    "alt": "Двое гостей держат табличку Damneth Tours, а слон поднимает хобот над их головами"
+  },
+  "he": {
+    "title": "חדק למעלה למצלמה",
+    "alt": "שני אורחים מחזיקים שלט של Damneth Tours בזמן שפיל מרים את החדק מעל ראשיהם"
+  }
+}

@@ -175,6 +175,85 @@
     sync();
   }
 
+  /* ---------- Guest moments (homepage clips) ---------- */
+  // Muted clips that play while at least half on screen and pause otherwise. Each one has its own
+  // pause button, as anything moving for more than five seconds should. With reduced motion,
+  // Save-Data or a 2G connection they start out stopped on the poster, and as they are
+  // preload="none" nothing downloads until the button (or the clip itself) is tapped.
+  const moments = $$('.moment__video');
+
+  if (moments.length) {
+    const connection = navigator.connection || {};
+    const reduceData = window.matchMedia('(prefers-reduced-data: reduce)');
+    const holdBack = reduceMotion.matches || reduceData.matches || connection.saveData === true
+      || /2g/.test(connection.effectiveType || '');
+
+    const clips = moments.map((video) => ({
+      video,
+      toggle: $('[data-moment-toggle]', video.closest('.moment')),
+      onScreen: false,
+      paused: false, // by the visitor
+    }));
+
+    const setPaused = (clip, value) => {
+      clip.paused = value;
+      if (clip.toggle) clip.toggle.setAttribute('aria-pressed', String(value));
+    };
+
+    const play = (clip) => {
+      clip.video.play().catch((error) => {
+        // Autoplay refused (iOS Low Power Mode, battery saver): show play so a tap starts it
+        if (error.name === 'NotAllowedError') setPaused(clip, true);
+      });
+    };
+
+    const sync = (clip) => {
+      if (clip.onScreen && !clip.paused && !document.hidden) play(clip);
+      else if (!clip.video.paused) clip.video.pause();
+    };
+
+    clips.forEach((clip) => {
+      clip.video.muted = true;
+      if (holdBack) setPaused(clip, true);
+
+      const toggle = () => {
+        setPaused(clip, !clip.paused);
+        // Started by a tap: play straight away, even if less than half of it is on screen
+        if (clip.paused) clip.video.pause();
+        else play(clip);
+      };
+
+      if (clip.toggle) clip.toggle.addEventListener('click', toggle);
+      clip.video.addEventListener('click', toggle);
+    });
+
+    reduceMotion.addEventListener('change', (event) => {
+      if (!event.matches) return;
+      clips.forEach((clip) => {
+        setPaused(clip, true);
+        sync(clip);
+      });
+    });
+
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          const clip = clips.find((item) => item.video === entry.target);
+          clip.onScreen = entry.isIntersecting && entry.intersectionRatio >= 0.5;
+          sync(clip);
+        });
+      }, { threshold: 0.5 });
+      clips.forEach((clip) => observer.observe(clip.video));
+    } else {
+      clips.forEach((clip) => {
+        clip.onScreen = true;
+        sync(clip);
+      });
+    }
+
+    document.addEventListener('visibilitychange', () => clips.forEach(sync));
+  }
+
   /* ---------- Destinations carousel ---------- */
   $$('[data-carousel]').forEach((carousel) => {
     const track = $('.carousel__track', carousel);

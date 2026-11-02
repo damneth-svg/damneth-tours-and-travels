@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "Waving from the top",
+    "alt": "Two guests waving from an elephant’s back as it walks along a paved forest path, a mahout walking alongside",
+    "type": "image",
+    "category": "wildlife",
+    "with_guests": true,
+    "order": 345,
+    "image": "/assets/images/gallery/gal-elephant-ride-mahout-768.webp"
+  },
+  "de": {
+    "title": "Winken von oben",
+    "alt": "Zwei Gäste winken vom Rücken eines Elefanten, der einen gepflasterten Waldweg entlanggeht, ein Mahut läuft nebenher"
+  },
+  "fr": {
+    "title": "Un salut d’en haut",
+    "alt": "Deux voyageurs saluent du dos d’un éléphant qui avance sur un chemin pavé en forêt, un cornac marchant à ses côtés"
+  },
+  "ru": {
+    "title": "Привет сверху",
+    "alt": "Двое гостей машут со спины слона, идущего по мощёной лесной дорожке, рядом шагает погонщик"
+  },
+  "he": {
+    "title": "נפנוף מלמעלה",
+    "alt": "שני אורחים מנופפים מגבו של פיל שהולך בשביל סלול ביער, ולצדו צועד מהוט"
+  }
+}

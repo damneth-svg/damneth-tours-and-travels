@@ -48,6 +48,7 @@
     "6ce55cdf": "Des vagues se brisant sur des rochers sombres au bord d’une mer turquoise et limpide",
     "ccb2d3ea": "Côte est",
     "003f022a": "<1/>Laissez-nous un avis sur Google<2> (s’ouvre dans un nouvel onglet)</2>",
+    "1af64e83": "Des moments des voyages de nos voyageurs",
     "1c66ebb3": "Préparez votre voyage",
     "9138ec51": "Votre road trip au Sri Lanka commence par un message.",
     "0a708342": "Demander un devis gratuit",

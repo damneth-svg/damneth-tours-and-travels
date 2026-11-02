@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "Ready for tea plucking",
+    "alt": "Two guests in head wraps holding woven baskets among tea bushes, with forested hills behind",
+    "type": "image",
+    "category": "hills",
+    "with_guests": true,
+    "order": 125,
+    "image": "/assets/images/gallery/gal-tea-plucking-guests-768.webp"
+  },
+  "de": {
+    "title": "Bereit zum Teepflücken",
+    "alt": "Zwei Gäste mit Kopftüchern halten geflochtene Körbe zwischen Teesträuchern, dahinter bewaldete Hügel"
+  },
+  "fr": {
+    "title": "Prêts pour la cueillette du thé",
+    "alt": "Deux voyageurs coiffés de foulards tiennent des paniers tressés au milieu des théiers, avec des collines boisées en arrière-plan"
+  },
+  "ru": {
+    "title": "Готовы собирать чай",
+    "alt": "Двое гостей в головных платках держат плетёные корзины среди чайных кустов, позади лесистые холмы"
+  },
+  "he": {
+    "title": "מוכנים לקטיף תה",
+    "alt": "שני אורחים עם כיסויי ראש מחזיקים סלים קלועים בין שיחי תה, וגבעות מיוערות ברקע"
+  }
+}

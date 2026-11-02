@@ -1,0 +1,28 @@
+{
+  "en": {
+    "title": "Feeding time",
+    "alt": "A guest feeding an elephant, which curls its trunk to take the food",
+    "type": "video",
+    "category": "wildlife",
+    "with_guests": true,
+    "order": 305,
+    "video": "/assets/videos/gallery/elephant-feeding.mp4",
+    "poster": "/assets/images/gallery/gal-video-elephant-feeding-480.webp"
+  },
+  "de": {
+    "title": "Fütterungszeit",
+    "alt": "Ein Gast füttert einen Elefanten, der seinen Rüssel einrollt, um das Futter zu nehmen"
+  },
+  "fr": {
+    "title": "L’heure du repas",
+    "alt": "Un voyageur nourrit un éléphant, qui enroule sa trompe pour prendre la nourriture"
+  },
+  "ru": {
+    "title": "Время кормления",
+    "alt": "Гость кормит слона, который сворачивает хобот, чтобы взять угощение"
+  },
+  "he": {
+    "title": "זמן האכלה",
+    "alt": "אורח מאכיל פיל, שמסלסל את החדק כדי לקחת את האוכל"
+  }
+}

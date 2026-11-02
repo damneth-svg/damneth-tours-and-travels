@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "Up in the saddle",
+    "alt": "Two guests riding an elephant on a checked saddle blanket, one waving, as the elephant reaches its trunk up a palm tree",
+    "type": "image",
+    "category": "wildlife",
+    "with_guests": true,
+    "order": 155,
+    "image": "/assets/images/gallery/gal-elephant-ride-forest-768.webp"
+  },
+  "de": {
+    "title": "Oben im Sattel",
+    "alt": "Zwei Gäste reiten auf einer karierten Satteldecke auf einem Elefanten, einer winkt, während der Elefant seinen Rüssel an einer Palme hochstreckt"
+  },
+  "fr": {
+    "title": "En selle",
+    "alt": "Deux voyageurs à dos d’éléphant sur une couverture de selle à carreaux, l’un salue de la main, tandis que l’éléphant tend sa trompe vers un palmier"
+  },
+  "ru": {
+    "title": "В седле",
+    "alt": "Двое гостей едут на слоне на клетчатой попоне, один машет рукой, а слон тянет хобот к стволу пальмы"
+  },
+  "he": {
+    "title": "על האוכף",
+    "alt": "שני אורחים רוכבים על פיל על שמיכת אוכף משובצת, אחד מהם מנופף, והפיל מושיט את החדק אל גזע של עץ דקל"
+  }
+}

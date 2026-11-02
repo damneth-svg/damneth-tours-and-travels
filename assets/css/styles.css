@@ -2528,6 +2528,194 @@ fieldset {
   }
 }
 
+/* ---------- 13b. Guest moments (homepage video strip) ---------- */
+.moments {
+  overflow: hidden;
+}
+
+.moments__head {
+  display: grid;
+  gap: var(--space-6);
+  margin-bottom: var(--space-8);
+}
+
+@media (min-width: 64em) {
+  .moments__head {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+  }
+}
+
+/* Phones: a swipeable row that bleeds to the screen edge, like the destinations carousel.
+   From tablet up: the four clips side by side inside the container. */
+.moments__track {
+  --carousel-inset: max(var(--gutter), calc((100% - var(--container)) / 2));
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min(62vw, 15rem);
+  gap: var(--space-4);
+  padding-inline: var(--carousel-inset);
+  padding-bottom: var(--space-2);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--carousel-inset);
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-accent) var(--color-border);
+}
+
+.js .moments__track {
+  scrollbar-width: none;
+}
+
+.js .moments__track::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 48em) {
+  .moments__track {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: var(--space-5);
+    padding-bottom: 0;
+    overflow: visible;
+  }
+}
+
+/* A loose stagger on wide screens, so the four tall frames read as a strip of snapshots */
+@media (min-width: 64em) {
+  .moments__item:nth-child(even) {
+    margin-block-start: var(--space-10);
+  }
+}
+
+.moments__item {
+  scroll-snap-align: start;
+}
+
+.moment {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 9 / 16;
+  border-radius: var(--radius-lg);
+  background: var(--color-bg-deep);
+  box-shadow: var(--shadow-lg);
+}
+
+/* The clips are straight off a phone; this gives them the same warm grade as the site's photos. */
+.moment__video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: contrast(1.05) saturate(1.1) brightness(0.98);
+  transition: transform var(--duration-slow) var(--ease-out);
+}
+
+.moment::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgb(5 30 40 / 0) 55%, rgb(5 30 40 / 0.85) 100%);
+  pointer-events: none;
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .moment:hover .moment__video {
+    transform: scale(1.04);
+  }
+}
+
+.moment__caption {
+  position: absolute;
+  inset: auto 0 0;
+  z-index: var(--z-base);
+  padding: var(--space-6) var(--space-5) var(--space-5);
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-snug);
+  color: var(--color-white);
+  text-wrap: balance;
+}
+
+/* Same glass button as the hero's video toggle. It only shows once main.js runs; without
+   JavaScript the clips stay on their posters. */
+.moment__toggle {
+  position: absolute;
+  inset-block-start: var(--space-3);
+  inset-inline-end: var(--space-3);
+  z-index: var(--z-raised);
+  display: none;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: var(--border-thin) solid var(--color-border-inverse);
+  border-radius: 50%;
+  background: rgb(5 30 40 / 0.35);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  color: var(--color-white);
+  cursor: pointer;
+  transition:
+    background-color var(--duration-fast) var(--ease-out),
+    border-color var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out);
+}
+
+.js .moment__toggle {
+  display: inline-grid;
+}
+
+/* A tap on the clip itself does the same as its button */
+.js .moment__video {
+  cursor: pointer;
+}
+
+.moment__toggle:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.moment__toggle:active {
+  transform: scale(0.94);
+  transition-duration: 80ms;
+}
+
+.moment__play path {
+  fill: currentColor;
+  stroke: none;
+}
+
+.moment__toggle[aria-pressed="true"] .moment__pause,
+.moment__toggle:not([aria-pressed="true"]) .moment__play {
+  display: none;
+}
+
+/* Stopped clips show a bigger play button, so it is clear a tap will start them */
+.moment__toggle[aria-pressed="true"] {
+  width: 3.25rem;
+  height: 3.25rem;
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-bg-deepest);
+}
+
+.moment__toggle[aria-pressed="true"]:hover {
+  background: var(--color-gold-300);
+  border-color: var(--color-gold-300);
+  color: var(--color-bg-deepest);
+}
+
+@media (max-width: 47.99em), (pointer: coarse) {
+  .moment__toggle {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
 /* ---------- 14. Planner (quote form) ---------- */
 .planner {
   overflow-x: clip; /* the offset backdrop photo must not widen the page */

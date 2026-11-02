@@ -1,0 +1,28 @@
+{
+  "en": {
+    "title": "A splash in the river",
+    "alt": "A guest riding an elephant in a shallow river as it sprays water from its trunk",
+    "type": "video",
+    "category": "wildlife",
+    "with_guests": true,
+    "order": 55,
+    "video": "/assets/videos/gallery/river-spray.mp4",
+    "poster": "/assets/images/gallery/gal-video-river-spray-480.webp"
+  },
+  "de": {
+    "title": "Eine Dusche im Fluss",
+    "alt": "Ein Gast reitet in einem flachen Fluss auf einem Elefanten, während dieser Wasser aus seinem Rüssel spritzt"
+  },
+  "fr": {
+    "title": "Éclaboussures à la rivière",
+    "alt": "Un voyageur à dos d’éléphant dans une rivière peu profonde pendant que l’éléphant projette de l’eau avec sa trompe"
+  },
+  "ru": {
+    "title": "Брызги в реке",
+    "alt": "Гость едет на слоне по мелкой реке, а слон разбрызгивает воду из хобота"
+  },
+  "he": {
+    "title": "התזה בנהר",
+    "alt": "אורח רוכב על פיל בנהר רדוד בזמן שהפיל מתיז מים מהחדק"
+  }
+}

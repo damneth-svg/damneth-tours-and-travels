@@ -1,0 +1,28 @@
+{
+  "en": {
+    "title": "Riding through the forest",
+    "alt": "Two guests waving as they ride an elephant along a paved forest path, a mahout walking beside them",
+    "type": "video",
+    "category": "wildlife",
+    "with_guests": true,
+    "order": 195,
+    "video": "/assets/videos/gallery/forest-ride.mp4",
+    "poster": "/assets/images/gallery/gal-video-forest-ride-480.webp"
+  },
+  "de": {
+    "title": "Ritt durch den Wald",
+    "alt": "Zwei Gäste winken beim Ritt auf einem Elefanten über einen gepflasterten Waldweg, ein Mahut läuft nebenher"
+  },
+  "fr": {
+    "title": "Balade en forêt",
+    "alt": "Deux voyageurs saluent à dos d’éléphant sur un chemin pavé en forêt, un cornac marchant à côté"
+  },
+  "ru": {
+    "title": "Прогулка по лесу",
+    "alt": "Двое гостей машут, катаясь на слоне по мощёной лесной дорожке, рядом идёт погонщик"
+  },
+  "he": {
+    "title": "רכיבה ביער",
+    "alt": "שני אורחים מנופפים בזמן שהם רוכבים על פיל בשביל סלול ביער, ומהוט הולך לצדם"
+  }
+}

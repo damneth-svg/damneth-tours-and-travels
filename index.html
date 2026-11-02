@@ -997,7 +997,84 @@
       </div>
     </section>
 
-    <!-- ============ 9. Quote planner ============ -->
+    <!-- ============ 9. Guest moments ============ -->
+    <section class="moments section" aria-labelledby="moments-title">
+      <div class="container moments__head">
+        <div class="section-head reveal">
+          <p class="eyebrow" data-i18n="67d86247">Guest moments</p>
+          <h2 class="section-title section-title--md" id="moments-title" data-i18n="1af64e83">Moments from our guests’ trips</h2>
+          <p class="lead" data-i18n="7a0d529d">Short clips from days out with our guests: elephant rides through forest and palm groves, and a splash in the river.</p>
+        </div>
+        <a class="text-link moments__more reveal" href="gallery.html" style="--reveal: 1" data-i18n="a687dc54">See all photos and videos <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+      </div>
+
+      <!-- Muted clips that play while on screen. Each has its own pause button; with reduced motion
+           or a data-saver connection they stay on the poster until it is pressed. -->
+      <ul class="moments__track reveal" role="list" style="--reveal: 1">
+        <li class="moments__item">
+          <figure class="moment">
+            <video class="moment__video" muted loop playsinline preload="none" disablepictureinpicture disableremoteplayback
+              width="480" height="854" poster="assets/images/gallery/gal-video-river-spray-480.webp"
+              aria-label="A guest riding an elephant in a shallow river as it sprays water from its trunk" data-i18n-attr="aria-label=9d9386d6">
+              <source src="assets/videos/gallery/river-spray.mp4" type="video/mp4">
+            </video>
+            <figcaption class="moment__caption" id="moment-1" data-i18n="1e6411fd">A splash in the river</figcaption>
+            <button class="moment__toggle" type="button" aria-pressed="false" aria-describedby="moment-1" data-moment-toggle>
+              <svg class="icon icon--sm moment__pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5.5v13M15 5.5v13"/></svg>
+              <svg class="icon icon--sm moment__play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.8v12.4a.8.8 0 0 0 1.2.7l9.8-6.2a.8.8 0 0 0 0-1.4L9.2 5.1a.8.8 0 0 0-1.2.7Z"/></svg>
+              <span class="visually-hidden" data-i18n="386beace">Pause video</span>
+            </button>
+          </figure>
+        </li>
+        <li class="moments__item">
+          <figure class="moment">
+            <video class="moment__video" muted loop playsinline preload="none" disablepictureinpicture disableremoteplayback
+              width="480" height="854" poster="assets/images/gallery/gal-video-forest-ride-480.webp"
+              aria-label="Two guests waving as they ride an elephant along a paved forest path, a mahout walking beside them" data-i18n-attr="aria-label=e91f383c">
+              <source src="assets/videos/gallery/forest-ride.mp4" type="video/mp4">
+            </video>
+            <figcaption class="moment__caption" id="moment-2" data-i18n="3864bd56">Riding through the forest</figcaption>
+            <button class="moment__toggle" type="button" aria-pressed="false" aria-describedby="moment-2" data-moment-toggle>
+              <svg class="icon icon--sm moment__pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5.5v13M15 5.5v13"/></svg>
+              <svg class="icon icon--sm moment__play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.8v12.4a.8.8 0 0 0 1.2.7l9.8-6.2a.8.8 0 0 0 0-1.4L9.2 5.1a.8.8 0 0 0-1.2.7Z"/></svg>
+              <span class="visually-hidden" data-i18n="386beace">Pause video</span>
+            </button>
+          </figure>
+        </li>
+        <li class="moments__item">
+          <figure class="moment">
+            <video class="moment__video" muted loop playsinline preload="none" disablepictureinpicture disableremoteplayback
+              width="480" height="854" poster="assets/images/gallery/gal-video-elephant-feeding-480.webp"
+              aria-label="A guest feeding an elephant, which curls its trunk to take the food" data-i18n-attr="aria-label=be48bf18">
+              <source src="assets/videos/gallery/elephant-feeding.mp4" type="video/mp4">
+            </video>
+            <figcaption class="moment__caption" id="moment-3" data-i18n="d3adf273">Feeding time</figcaption>
+            <button class="moment__toggle" type="button" aria-pressed="false" aria-describedby="moment-3" data-moment-toggle>
+              <svg class="icon icon--sm moment__pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5.5v13M15 5.5v13"/></svg>
+              <svg class="icon icon--sm moment__play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.8v12.4a.8.8 0 0 0 1.2.7l9.8-6.2a.8.8 0 0 0 0-1.4L9.2 5.1a.8.8 0 0 0-1.2.7Z"/></svg>
+              <span class="visually-hidden" data-i18n="386beace">Pause video</span>
+            </button>
+          </figure>
+        </li>
+        <li class="moments__item">
+          <figure class="moment">
+            <video class="moment__video" muted loop playsinline preload="none" disablepictureinpicture disableremoteplayback
+              width="480" height="854" poster="assets/images/gallery/gal-video-palm-ride-480.webp"
+              aria-label="Two guests riding an elephant along a dirt path under palm trees" data-i18n-attr="aria-label=2012f7e3">
+              <source src="assets/videos/gallery/palm-ride.mp4" type="video/mp4">
+            </video>
+            <figcaption class="moment__caption" id="moment-4" data-i18n="2fe43d22">Under the palms</figcaption>
+            <button class="moment__toggle" type="button" aria-pressed="false" aria-describedby="moment-4" data-moment-toggle>
+              <svg class="icon icon--sm moment__pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5.5v13M15 5.5v13"/></svg>
+              <svg class="icon icon--sm moment__play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.8v12.4a.8.8 0 0 0 1.2.7l9.8-6.2a.8.8 0 0 0 0-1.4L9.2 5.1a.8.8 0 0 0-1.2.7Z"/></svg>
+              <span class="visually-hidden" data-i18n="386beace">Pause video</span>
+            </button>
+          </figure>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ 10. Quote planner ============ -->
     <section class="planner section" id="plan" aria-labelledby="plan-title">
       <div class="container planner__grid">
         <div class="planner__intro reveal">
@@ -1151,7 +1228,7 @@
       </div>
     </section>
 
-    <!-- ============ 10. Sample itineraries (backup action) ============ -->
+    <!-- ============ 11. Sample itineraries (backup action) ============ -->
     <section class="backup" aria-labelledby="backup-title">
       <div class="container">
         <div class="backup__card theme-dark reveal">
@@ -1177,7 +1254,7 @@
       </div>
     </section>
 
-    <!-- ============ 11. Instagram feed ============ -->
+    <!-- ============ 12. Instagram feed ============ -->
     <section class="insta section section--alt" aria-labelledby="insta-title" data-widget-host>
       <div class="container">
         <div class="insta__head">
@@ -1244,7 +1321,7 @@
     </section>
   </main>
 
-  <!-- ============ 12. Footer ============ -->
+  <!-- ============ 13. Footer ============ -->
   <footer class="site-footer theme-dark" id="contact">
     <div class="container">
       <div class="footer__cta">
