@@ -2501,6 +2501,94 @@ fieldset {
   }
 }
 
+/* Guest photo with the Damneth Tours nameboard: a white-bordered print, tilted, with a strip of
+   gold tape. Below the intro on phones and desktop; beside it on tablets. */
+.proof {
+  position: relative;
+  width: min(100%, 16rem);
+  margin-block: var(--space-9) 0;
+  margin-inline: var(--space-2) 0;
+  padding: var(--space-3) var(--space-3) 0;
+  border-radius: var(--radius-xs);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-lg);
+  rotate: -2.5deg;
+}
+
+[dir="rtl"] .proof {
+  rotate: 2.5deg;
+}
+
+.proof::before {
+  content: "";
+  position: absolute;
+  top: calc(var(--space-3) * -1);
+  left: 50%;
+  width: 5.5rem;
+  height: 1.5rem;
+  translate: -50% 0;
+  rotate: 4deg;
+  background: color-mix(in srgb, var(--color-gold-300) 82%, transparent);
+  box-shadow: var(--shadow-xs);
+}
+
+.proof__photo {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
+.proof__caption {
+  padding: var(--space-3) var(--space-1) var(--space-4);
+}
+
+.proof__title {
+  font-family: var(--font-display);
+  font-size: var(--text-md);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-snug);
+  color: var(--color-heading);
+}
+
+.proof__text {
+  margin-top: var(--space-1);
+  font-size: var(--text-sm);
+  line-height: var(--leading-snug);
+  color: var(--color-text-muted);
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .proof {
+    transition: rotate var(--duration-base) var(--ease-out);
+  }
+
+  .proof:hover {
+    rotate: 0deg;
+  }
+}
+
+@media (min-width: 40em) and (max-width: 63.99em) {
+  .reviews__intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 15rem;
+    grid-template-rows: repeat(5, auto) 1fr;
+    column-gap: var(--space-10);
+  }
+
+  .reviews__intro > * {
+    grid-column: 1;
+    justify-self: start;
+  }
+
+  .reviews__intro .proof {
+    grid-column: 2;
+    grid-row: 1 / -1;
+    width: 100%;
+    margin-block-start: var(--space-3);
+  }
+}
+
 /* A pasted review widget (Elfsight, Trustindex) sits on a light panel and replaces the cards.
    main.js adds .has-widget once the widget has drawn something; until then the slot is empty
    and takes no space. */
