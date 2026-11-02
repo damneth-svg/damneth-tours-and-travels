@@ -135,7 +135,7 @@
     "d6789664": "zufriedene Reisende – und es werden mehr",
     "5071a29f": "Zwei Gäste halten ein Damneth-Tours-Schild, während ein Elefant seinen Rüssel über ihre Köpfe hebt",
     "90c77409": "Rüssel hoch für die Kamera",
-    "9d7307ee": "Unsere Gäste mit dem Damneth-Tours-Schild",
+    "463d90f6": "Glückliche Kunden mit dem Damneth-Tours-Schild",
     "1b337725": "<1/>Gästebewertung",
     "67d86247": "Mit unseren Gästen",
     "7a0d529d": "Kurze Clips von Ausflügen mit unseren Gästen: Elefantenritte durch Wald und Palmenhaine und eine Dusche im Fluss.",

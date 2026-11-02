@@ -135,7 +135,7 @@
     "d6789664": "voyageurs satisfaits, et ce n’est pas fini",
     "5071a29f": "Deux voyageurs tiennent une pancarte Damneth Tours pendant qu’un éléphant lève sa trompe au-dessus de leurs têtes",
     "90c77409": "Trompe levée pour la photo",
-    "9d7307ee": "Nos voyageurs avec la pancarte Damneth Tours",
+    "463d90f6": "Des clients ravis avec la pancarte Damneth Tours",
     "1b337725": "<1/>Avis d’un voyageur",
     "67d86247": "Avec nos voyageurs",
     "7a0d529d": "De courtes vidéos de sorties avec nos voyageurs&nbsp;: balades à dos d’éléphant en forêt et sous les palmiers, et quelques éclaboussures à la rivière.",
