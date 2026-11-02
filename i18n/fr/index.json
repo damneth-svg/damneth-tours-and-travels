@@ -541,6 +541,14 @@
     "en": "The whole trip went without a single delay, and the family left us a 5-star review.",
     "fr": "Tout le voyage s’est déroulé sans le moindre retard, et la famille nous a laissé un avis 5 étoiles."
   },
+  "227a31a4": {
+    "en": "Show the whole trip",
+    "fr": "Voir tout le voyage"
+  },
+  "4c852b26": {
+    "en": "Show less",
+    "fr": "Afficher moins"
+  },
   "a2c2b274": {
     "en": "Traveller reviews",
     "fr": "Avis des voyageurs"
@@ -812,5 +820,13 @@
   "bc191ff3": {
     "en": "See more of our photos on Instagram (opens in a new tab)",
     "fr": "Voir plus de nos photos sur Instagram (s’ouvre dans un nouvel onglet)"
+  },
+  "e47e8042": {
+    "en": "Quick actions",
+    "fr": "Actions rapides"
+  },
+  "42b2f65a": {
+    "en": "Book a transfer",
+    "fr": "Réserver un transfert"
   }
 }

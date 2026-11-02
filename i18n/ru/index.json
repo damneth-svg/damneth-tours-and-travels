@@ -541,6 +541,14 @@
     "en": "The whole trip went without a single delay, and the family left us a 5-star review.",
     "ru": "Вся поездка прошла без единой задержки, а семья оставила нам отзыв на 5 звёзд."
   },
+  "227a31a4": {
+    "en": "Show the whole trip",
+    "ru": "Показать всю поездку"
+  },
+  "4c852b26": {
+    "en": "Show less",
+    "ru": "Свернуть"
+  },
   "a2c2b274": {
     "en": "Traveller reviews",
     "ru": "Отзывы путешественников"
@@ -812,5 +820,13 @@
   "bc191ff3": {
     "en": "See more of our photos on Instagram (opens in a new tab)",
     "ru": "Больше наших фото в Instagram (откроется в новой вкладке)"
+  },
+  "e47e8042": {
+    "en": "Quick actions",
+    "ru": "Быстрые действия"
+  },
+  "42b2f65a": {
+    "en": "Book a transfer",
+    "ru": "Заказать трансфер"
   }
 }

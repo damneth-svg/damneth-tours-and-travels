@@ -6735,6 +6735,402 @@ label {
   }
 }
 
+/* Compact homepage on phones: long stacks become swipe rows, decorative extras step back,
+   and a bottom bar keeps WhatsApp and transfer booking under the thumb */
+.mobile-cta,
+.timeline-toggle {
+  display: none;
+}
+
+@media (max-width: 47.99em) {
+  :is(.intro, .services, .destinations, .promise, .story, .reviews, .moments, .insta).section {
+    padding-block: var(--space-8);
+  }
+
+  /* Hero: the price card and the actions stay; the extras go */
+  .hero {
+    padding-bottom: calc(var(--space-10) + var(--space-6));
+  }
+
+  .hero__inner {
+    gap: var(--space-6);
+  }
+
+  .hero__assurances,
+  .hero__route .route__label,
+  .hero__route .route,
+  .price-card__note {
+    display: none;
+  }
+
+  .price-card__row {
+    padding-block: var(--space-2);
+  }
+
+  /* Intro: one photo, and the lead carries the message the body text repeats */
+  .intro__grid {
+    gap: var(--space-7);
+  }
+
+  .intro__body,
+  .collage__second,
+  .quote-chip {
+    display: none;
+  }
+
+  .feature-list {
+    gap: var(--space-4);
+    margin-top: var(--space-6);
+  }
+
+  .intro__media .collage__main {
+    aspect-ratio: 4 / 3;
+  }
+
+  /* Services: one swipe row; the next card peeks in from the edge */
+  .services__head {
+    gap: var(--space-4);
+    margin-bottom: var(--space-6);
+  }
+
+  .bento,
+  .review-list {
+    grid-auto-flow: column;
+    grid-auto-columns: min(82vw, 20rem);
+    gap: var(--space-4);
+    margin-inline: calc(-1 * var(--gutter));
+    padding: var(--space-1) var(--gutter) var(--space-3);
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: var(--gutter);
+  }
+
+  .js .bento,
+  .js .review-list {
+    scrollbar-width: none;
+  }
+
+  .js .bento::-webkit-scrollbar,
+  .js .review-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .bento > *,
+  .review-list > * {
+    scroll-snap-align: start;
+  }
+
+  .service-card--featured {
+    min-height: 0;
+  }
+
+  .service-card--featured .service-card__body {
+    gap: var(--space-3);
+    padding: var(--space-6) var(--space-5);
+  }
+
+  .service-card--featured .service-card__title {
+    font-size: var(--text-2xl);
+  }
+
+  .service-card__body {
+    padding: var(--space-5);
+  }
+
+  /* A lifted card would clip against the row's top edge */
+  .service-card:hover {
+    transform: none;
+  }
+
+  /* Promise: the van and the receipt side by side, as on tablets */
+  .promise__grid,
+  .story__grid {
+    gap: var(--space-7);
+  }
+
+  .promise__route,
+  .promise__photo--short {
+    display: none;
+  }
+
+  .promise__media {
+    align-items: center;
+  }
+
+  .promise__photo--tall {
+    grid-row: 1;
+  }
+
+  .receipt-wrap {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    margin-inline-start: -45%;
+  }
+
+  .worry summary {
+    padding-block: var(--space-4);
+  }
+
+  /* Story: one photo, then the first two stops and the result until the toggle opens the rest */
+  .story__media {
+    padding: 0;
+  }
+
+  .story__main {
+    aspect-ratio: 5 / 4;
+  }
+
+  .story__second {
+    display: none;
+  }
+
+  .timeline {
+    margin-top: var(--space-6);
+  }
+
+  .js .timeline:not(.is-open) .timeline__item:is(:nth-child(3), :nth-child(4)) {
+    display: none;
+  }
+
+  .js .timeline-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    min-height: 3rem;
+    margin-top: var(--space-2);
+    margin-inline-start: calc(2.75rem + var(--space-4));
+    padding: 0;
+    border: 0;
+    background: none;
+    font-family: var(--font-display);
+    font-weight: var(--weight-semibold);
+    color: var(--color-primary);
+    cursor: pointer;
+  }
+
+  .timeline-toggle .icon {
+    transition: transform var(--duration-base) var(--ease-out);
+  }
+
+  .timeline-toggle[aria-expanded="true"] .icon {
+    transform: rotate(180deg);
+  }
+
+  .timeline-toggle[aria-expanded="true"] .timeline-toggle__more,
+  .timeline-toggle[aria-expanded="false"] .timeline-toggle__less {
+    display: none;
+  }
+
+  .timeline-toggle:active {
+    opacity: 0.7;
+  }
+
+  /* Reviews: the cards swipe like the services above */
+  .reviews__grid {
+    gap: var(--space-6);
+  }
+
+  .reviews__count,
+  .reviews__intro .text-link {
+    margin-top: var(--space-5);
+  }
+
+  .review {
+    padding: var(--space-6) var(--space-5) var(--space-5);
+  }
+
+  .review blockquote p {
+    font-size: var(--text-lg);
+  }
+
+  /* Guest moments: smaller clips, so more of the row shows at once */
+  .moments__track {
+    grid-auto-columns: min(46vw, 12rem);
+    gap: var(--space-3);
+  }
+
+  /* Planner and backup: the decorative photos give way to the form and the text */
+  .planner__backdrop,
+  .backup__media {
+    display: none;
+  }
+
+  .planner__form-wrap {
+    padding-top: 0;
+  }
+
+  /* Instagram: one swipe row instead of a two-row grid */
+  .insta__head {
+    margin-bottom: var(--space-6);
+  }
+
+  .insta__grid {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: min(36vw, 9rem);
+    margin-inline: calc(-1 * var(--gutter));
+    padding-inline: var(--gutter);
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: var(--gutter);
+  }
+
+  .js .insta__grid {
+    scrollbar-width: none;
+  }
+
+  .js .insta__grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .insta__tile {
+    scroll-snap-align: start;
+  }
+
+  /* The bottom bar takes over from the contact stack */
+  .js:has(.mobile-cta) .contact-stack {
+    display: none;
+  }
+
+  .js:has(.mobile-cta) :is(.hero__actions, .hero .price-card) {
+    margin-inline-end: 0;
+  }
+
+  .js .mobile-cta {
+    position: fixed;
+    inset-inline: 0;
+    bottom: 0;
+    z-index: var(--z-float);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-2);
+    padding: var(--space-2) var(--gutter) calc(var(--space-2) + env(safe-area-inset-bottom, 0px));
+    border-top: var(--border-thin) solid var(--color-border-inverse);
+    background: rgb(5 30 40 / 0.9);
+    box-shadow: 0 -12px 32px rgb(5 30 40 / 0.25);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    --color-focus: var(--color-gold-500);
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(100%);
+    transition:
+      opacity var(--duration-base) var(--ease-out),
+      transform var(--duration-base) var(--ease-out),
+      visibility 0s linear var(--duration-base);
+  }
+
+  .js .mobile-cta.is-visible {
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+    transition:
+      opacity var(--duration-base) var(--ease-out),
+      transform var(--duration-base) var(--ease-out);
+  }
+
+  .menu-open .mobile-cta.is-visible,
+  .lightbox-open .mobile-cta.is-visible {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  .mobile-cta__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    min-height: 3rem;
+    padding: var(--space-2) var(--space-3);
+    border-radius: var(--radius-pill);
+    font-family: var(--font-display);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-semibold);
+    line-height: 1.15;
+    text-align: center;
+    text-decoration: none;
+    text-wrap: balance;
+    -webkit-tap-highlight-color: transparent;
+    transition:
+      background-color var(--duration-fast) var(--ease-out),
+      transform var(--duration-fast) var(--ease-out);
+  }
+
+  .mobile-cta__btn .icon {
+    flex: none;
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  .mobile-cta__btn--wa {
+    background: var(--color-whatsapp);
+    color: var(--color-ocean-950);
+  }
+
+  .mobile-cta__btn--transfer {
+    background: var(--color-accent);
+    color: var(--color-on-accent);
+  }
+
+  .mobile-cta__btn:active {
+    transform: scale(0.96);
+    transition-duration: 60ms;
+  }
+
+  .mobile-cta__btn--wa:active {
+    background: var(--color-whatsapp-pressed);
+  }
+
+  .mobile-cta__btn--transfer:active {
+    background: var(--color-accent-hover);
+  }
+}
+
+/* The reviews intro puts the guest photo beside the count and the Google link */
+@media (max-width: 39.99em) {
+  .reviews__intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 7.5rem;
+    column-gap: var(--space-5);
+    align-items: start;
+  }
+
+  .reviews__intro > * {
+    grid-column: 1 / -1;
+  }
+
+  .reviews__intro > .reviews__count,
+  .reviews__intro > .reviews__google {
+    grid-column: 1;
+  }
+
+  .reviews__intro > .proof {
+    grid-column: 2;
+    grid-row: 4 / span 2;
+    width: 100%;
+    margin: var(--space-5) 0 0;
+    padding: var(--space-2) var(--space-2) 0;
+  }
+
+  .proof__caption {
+    padding: var(--space-2) 0 var(--space-3);
+  }
+
+  .proof__text {
+    display: none;
+  }
+}
+
+@media print {
+  .js .mobile-cta {
+    display: none;
+  }
+}
+
 /* ---------- 28. Languages ---------- */
 /* The switcher needs the script, and so does every language but English */
 .no-js .lang,

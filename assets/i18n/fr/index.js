@@ -129,6 +129,8 @@
     "c3a53929": "Des transferts privés le long de la côte pour finir le voyage.",
     "9e2bf8b6": "Zéro retard. Un avis 5 étoiles.",
     "3608bf17": "Tout le voyage s’est déroulé sans le moindre retard, et la famille nous a laissé un avis 5 étoiles.",
+    "227a31a4": "Voir tout le voyage",
+    "4c852b26": "Afficher moins",
     "a2c2b274": "Avis des voyageurs",
     "24729e09": "Quelques mots de la route",
     "771025ea": "Cités mot pour mot, tels que nos voyageurs les ont écrits (en anglais).",
@@ -194,6 +196,8 @@
     "5fc7b8df": "Photos de la route",
     "579ede76": "Des voyageurs, des lieux et des moments de nos circuits à travers le Sri Lanka.",
     "c23eb8ff": "<1/>Suivez-nous sur Instagram<2> (s’ouvre dans un nouvel onglet)</2>",
-    "bc191ff3": "Voir plus de nos photos sur Instagram (s’ouvre dans un nouvel onglet)"
+    "bc191ff3": "Voir plus de nos photos sur Instagram (s’ouvre dans un nouvel onglet)",
+    "e47e8042": "Actions rapides",
+    "42b2f65a": "Réserver un transfert"
   }
 });

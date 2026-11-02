@@ -905,7 +905,7 @@
             </p>
           </div>
 
-          <ol class="timeline reveal" role="list">
+          <ol class="timeline reveal" id="story-timeline" role="list">
             <li class="timeline__item">
               <span class="timeline__marker"><svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg></span>
               <div>
@@ -945,6 +945,12 @@
               </div>
             </li>
           </ol>
+          <!-- Phones show the first two stops and the result; this opens the rest. -->
+          <button class="timeline-toggle" type="button" aria-expanded="false" aria-controls="story-timeline" data-timeline-toggle>
+            <span class="timeline-toggle__more" data-i18n="227a31a4">Show the whole trip</span>
+            <span class="timeline-toggle__less" data-i18n="4c852b26">Show less</span>
+            <svg class="icon" aria-hidden="true"><use href="#i-chevron-down"/></svg>
+          </button>
         </div>
       </div>
     </section>
@@ -1419,6 +1425,18 @@
     <a class="contact-stack__btn contact-stack__btn--ig" href="https://www.instagram.com/damneth_tours_and_travels" target="_blank" rel="noopener noreferrer">
       <svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg>
       <span class="contact-stack__label" data-i18n="3c46685a">Follow us on Instagram<span class="visually-hidden"> (opens in a new tab)</span></span>
+    </a>
+  </aside>
+
+  <!-- Phones only: a fixed bar with the two actions guests use most. It takes over from the contact stack there. -->
+  <aside class="mobile-cta" aria-label="Quick actions" data-i18n-attr="aria-label=e47e8042">
+    <a class="mobile-cta__btn mobile-cta__btn--wa" href="https://wa.me/94773980966?text=Hi%20Damneth%2C%20I%27d%20like%20help%20planning%20a%20trip%20to%20Sri%20Lanka." target="_blank" rel="noopener" data-wa-trip>
+      <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+      <span class="mobile-cta__label"><span translate="no">WhatsApp</span><span class="visually-hidden" data-i18n="bf5b9903"> (opens in a new tab)</span></span>
+    </a>
+    <a class="mobile-cta__btn mobile-cta__btn--transfer" href="#plan" data-interest="Airport transfers">
+      <svg class="icon" aria-hidden="true"><use href="#i-van"/></svg>
+      <span class="mobile-cta__label" data-i18n="42b2f65a">Book a transfer</span>
     </a>
   </aside>
 </body>

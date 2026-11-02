@@ -56,7 +56,7 @@
     document.body.classList.toggle('menu-open', open);
     // Everything behind the open menu is made inert so focus can't wander off.
     // Looked up each time because the trip dock is added later.
-    $$('main, .site-footer, .contact-stack, .trip-dock, .skip-link').forEach((el) => { el.inert = open; });
+    $$('main, .site-footer, .contact-stack, .mobile-cta, .trip-dock, .skip-link').forEach((el) => { el.inert = open; });
     if (!open && returnFocus) navToggle.focus();
   };
 
@@ -576,6 +576,17 @@
     });
   });
 
+  /* ---------- Story timeline: the rest of the trip on phones ---------- */
+  $$('[data-timeline-toggle]').forEach((button) => {
+    const list = document.getElementById(button.getAttribute('aria-controls'));
+    if (!list) return;
+    button.addEventListener('click', () => {
+      const open = button.getAttribute('aria-expanded') !== 'true';
+      button.setAttribute('aria-expanded', String(open));
+      list.classList.toggle('is-open', open);
+    });
+  });
+
   /* ---------- Quote planner form ---------- */
   const form = quoteForm;
 
@@ -888,6 +899,12 @@
   const floatHiders = $$('.hero, .service-card--help, #plan, .site-footer, [data-float-hide]');
   const inView = new Set();
   let footerInView = false;
+  // Phones swap the stack for a bottom bar. It waits until the hero's own buttons have
+  // scrolled away, steps aside for the planner and footer, and gives way to the dock.
+  const mobileCta = $('.mobile-cta');
+  const ctaHiders = $$('.hero__actions, #plan, .site-footer');
+  const ctaInView = new Set();
+  let ctaReady = !('IntersectionObserver' in window);
 
   const updateFloats = () => {
     const clear = inView.size === 0;
@@ -896,7 +913,20 @@
     // The stack stays put everywhere else, so the thumb always finds it, but it slides
     // aside for the footer's own links and for the dock, which sends the trip instead.
     if (contactStack) contactStack.classList.toggle('is-hidden', footerInView || dockUp);
+    if (mobileCta) mobileCta.classList.toggle('is-visible', ctaReady && ctaInView.size === 0 && !dockUp);
   };
+
+  if (mobileCta && ctaHiders.length && !ctaReady) {
+    const ctaObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) ctaInView.add(entry.target);
+        else ctaInView.delete(entry.target);
+      });
+      ctaReady = true;
+      updateFloats();
+    });
+    ctaHiders.forEach((el) => ctaObserver.observe(el));
+  }
 
   if (contactStack && footer && 'IntersectionObserver' in window) {
     new IntersectionObserver(([entry]) => {

@@ -129,6 +129,8 @@
     "c3a53929": "Private Transfers entlang der Küste zum Abschluss der Reise.",
     "9e2bf8b6": "Null Verspätungen. Eine 5-Sterne-Bewertung.",
     "3608bf17": "Die ganze Reise verlief ohne eine einzige Verspätung, und die Familie hat uns eine 5-Sterne-Bewertung hinterlassen.",
+    "227a31a4": "Die ganze Reise zeigen",
+    "4c852b26": "Weniger anzeigen",
     "a2c2b274": "Bewertungen von Reisenden",
     "24729e09": "Freundliche Worte von unterwegs",
     "771025ea": "Wörtlich zitiert, so wie unsere Gäste sie (auf Englisch) geschrieben haben.",
@@ -194,6 +196,8 @@
     "5fc7b8df": "Fotos von unterwegs",
     "579ede76": "Gäste, Orte und Momente von unseren Reisen durch Sri Lanka.",
     "c23eb8ff": "<1/>Folgen Sie uns auf Instagram<2> (öffnet in einem neuen Tab)</2>",
-    "bc191ff3": "Mehr von unseren Fotos auf Instagram (öffnet in einem neuen Tab)"
+    "bc191ff3": "Mehr von unseren Fotos auf Instagram (öffnet in einem neuen Tab)",
+    "e47e8042": "Schnellaktionen",
+    "42b2f65a": "Transfer buchen"
   }
 });
