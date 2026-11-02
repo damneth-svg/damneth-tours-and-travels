@@ -7040,6 +7040,7 @@ label {
   }
 
   .mobile-cta__btn {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7087,6 +7088,82 @@ label {
 
   .mobile-cta__btn--transfer:active {
     background: var(--color-accent-hover);
+  }
+
+  /* A soft glow breathes behind each button in turn, and a live dot marks the
+     24/7 WhatsApp line. The glow moves only opacity and transform. */
+  .mobile-cta__btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    box-shadow: 0 0 20px 4px var(--cta-glow);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .mobile-cta__btn--wa {
+    --cta-glow: var(--color-whatsapp);
+  }
+
+  .mobile-cta__btn--transfer {
+    --cta-glow: var(--color-accent);
+  }
+
+  .mobile-cta__btn--wa::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    inset-inline-end: 13px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--color-whatsapp);
+    box-shadow: 0 0 0 2px var(--color-ocean-950);
+    pointer-events: none;
+  }
+
+  .js .mobile-cta.is-visible .mobile-cta__btn::before {
+    animation: subtle-pulse 4.8s var(--ease-in-out) 0.6s infinite both;
+  }
+
+  .js .mobile-cta.is-visible .mobile-cta__btn--transfer::before {
+    animation-delay: 3s;
+  }
+
+  .js .mobile-cta.is-visible .mobile-cta__btn--wa::after {
+    animation: status-ping 4.8s var(--ease-out) 0.6s infinite both;
+  }
+}
+
+@keyframes subtle-pulse {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+
+  45% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+}
+
+@keyframes status-ping {
+  0% {
+    box-shadow: 0 0 0 2px var(--color-ocean-950), 0 0 0 2px var(--color-whatsapp);
+  }
+
+  40%,
+  100% {
+    box-shadow: 0 0 0 2px var(--color-ocean-950), 0 0 0 10px transparent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js .mobile-cta.is-visible .mobile-cta__btn::before,
+  .js .mobile-cta.is-visible .mobile-cta__btn--wa::after {
+    animation: none;
   }
 }
 
