@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "Just landed",
+    "alt": "Two guests with their suitcases beneath the glowing Welcome to Sri Lanka sign in the airport arrivals hall, a Damneth Tours & Travels nameboard between them",
+    "type": "image",
+    "category": "guests",
+    "with_guests": false,
+    "order": 35,
+    "image": "/assets/images/gallery/gal-airport-welcome-couple-899.webp"
+  },
+  "de": {
+    "title": "Gerade gelandet",
+    "alt": "Zwei Gäste mit ihren Koffern unter dem leuchtenden Willkommensschriftzug in der Ankunftshalle des Flughafens, zwischen ihnen ein Namensschild von Damneth Tours & Travels"
+  },
+  "fr": {
+    "title": "Tout juste arrivés",
+    "alt": "Deux voyageurs avec leurs valises sous l’enseigne lumineuse de bienvenue, dans le hall des arrivées de l’aéroport, une pancarte Damneth Tours & Travels entre eux"
+  },
+  "ru": {
+    "title": "Только что прилетели",
+    "alt": "Двое гостей с чемоданами под светящейся приветственной надписью в зале прилёта аэропорта, между ними табличка Damneth Tours & Travels"
+  },
+  "he": {
+    "title": "רק נחתנו",
+    "alt": "שני אורחים עם המזוודות שלהם מתחת לשלט קבלת הפנים המואר באולם הנכנסים של שדה התעופה, ושלט של Damneth Tours & Travels ביניהם"
+  }
+}

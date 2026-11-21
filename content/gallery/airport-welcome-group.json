@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "A welcome for seven",
+    "alt": "Seven guests in the airport arrivals hall beneath the glowing Welcome to Sri Lanka sign, with three loaded luggage trolleys and a Damneth Tours & Travels nameboard",
+    "type": "image",
+    "category": "guests",
+    "with_guests": false,
+    "order": 245,
+    "image": "/assets/images/gallery/gal-airport-welcome-group-1040.webp"
+  },
+  "de": {
+    "title": "Ein Empfang für sieben",
+    "alt": "Sieben Gäste in der Ankunftshalle des Flughafens unter dem leuchtenden Willkommensschriftzug, mit drei voll beladenen Gepäckwagen und einem Namensschild von Damneth Tours & Travels"
+  },
+  "fr": {
+    "title": "Un accueil pour sept",
+    "alt": "Sept voyageurs dans le hall des arrivées de l’aéroport, sous l’enseigne lumineuse de bienvenue, avec trois chariots chargés de bagages et une pancarte Damneth Tours & Travels"
+  },
+  "ru": {
+    "title": "Встреча для семерых",
+    "alt": "Семеро гостей в зале прилёта аэропорта под светящейся приветственной надписью, с тремя гружёными багажными тележками и табличкой Damneth Tours & Travels"
+  },
+  "he": {
+    "title": "קבלת פנים לשבעה",
+    "alt": "שבעה אורחים באולם הנכנסים של שדה התעופה מתחת לשלט קבלת הפנים המואר, עם שלוש עגלות מזוודות עמוסות ושלט של Damneth Tours & Travels"
+  }
+}

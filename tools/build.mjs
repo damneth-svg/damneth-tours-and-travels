@@ -7,6 +7,7 @@
 // 3. Copies what the site needs into _site/: the six pages, assets/, admin/, favicon.ico and robots.txt.
 //    From "assets/Treavel Images" (the original photos and videos) only the files the site links to are
 //    copied. content/, i18n/ and tools/ stay out: the pages already contain everything they need.
+//    "assets/New Images" (raw photo batches waiting to be processed, kept out of git) is never copied.
 // 4. Writes _site/sitemap.xml: every page, with its language versions (?lang=de and so on) so search
 //    engines find those too. robots.txt points to it.
 //
@@ -20,6 +21,7 @@ import { prepare, compile } from './i18n.mjs';
 
 const OUT = path.join(ROOT, '_site');
 const ORIGINALS = 'assets/Treavel Images';
+const RAW_UPLOADS = 'assets/New Images';
 const ROOT_FILES = ['favicon.ico', 'robots.txt'];
 const TEXT_TYPES = /\.(html|css|js|json|svg)$/i;
 const SITE = 'https://damnethtravels.com/';
@@ -97,7 +99,7 @@ function build() {
   for (const page of PAGES) copy(`${page}.html`);
   for (const file of ROOT_FILES) if (fs.existsSync(path.join(ROOT, file))) copy(file);
   copy('admin');
-  copy('assets', (src) => rel(src) !== ORIGINALS);
+  copy('assets', (src) => rel(src) !== ORIGINALS && rel(src) !== RAW_UPLOADS);
   const originals = usedOriginals();
   for (const name of originals) copy(`${ORIGINALS}/${name}`);
   log(`${ORIGINALS}: ${originals.length} linked files copied`);

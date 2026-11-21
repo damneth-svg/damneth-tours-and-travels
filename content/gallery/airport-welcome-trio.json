@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "First steps in Sri Lanka",
+    "alt": "Three guests beneath the glowing welcome sign in the airport arrivals hall, one holding up a Damneth Tours & Travels nameboard, a red suitcase in front",
+    "type": "image",
+    "category": "guests",
+    "with_guests": false,
+    "order": 455,
+    "image": "/assets/images/gallery/gal-airport-welcome-trio-1080.webp"
+  },
+  "de": {
+    "title": "Erste Schritte in Sri Lanka",
+    "alt": "Drei Gäste unter dem leuchtenden Willkommensschriftzug in der Ankunftshalle des Flughafens, einer hält ein Namensschild von Damneth Tours & Travels hoch, davor ein roter Koffer"
+  },
+  "fr": {
+    "title": "Premiers pas au Sri Lanka",
+    "alt": "Trois voyageurs sous l’enseigne lumineuse de bienvenue, dans le hall des arrivées de l’aéroport, l’un tenant une pancarte Damneth Tours & Travels, une valise rouge devant eux"
+  },
+  "ru": {
+    "title": "Первые шаги на Шри-Ланке",
+    "alt": "Трое гостей под светящейся приветственной надписью в зале прилёта аэропорта, один держит табличку Damneth Tours & Travels, впереди красный чемодан"
+  },
+  "he": {
+    "title": "צעדים ראשונים בסרי לנקה",
+    "alt": "שלושה אורחים מתחת לשלט קבלת הפנים המואר באולם הנכנסים של שדה התעופה, אחד מהם מחזיק שלט של Damneth Tours & Travels, ומזוודה אדומה לפניהם"
+  }
+}
