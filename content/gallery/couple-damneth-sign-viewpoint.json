@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "Our guests with the Damneth Tours sign",
+    "alt": "A smiling couple holding a Damneth Tours sign on a stone viewpoint, with a waterfall and green hills behind them",
+    "type": "image",
+    "category": "hills",
+    "with_guests": true,
+    "order": 6,
+    "image": "/assets/images/gallery/gal-couple-damneth-sign-viewpoint-1080.webp"
+  },
+  "de": {
+    "title": "Unsere Gäste mit dem Damneth-Tours-Schild",
+    "alt": "Ein lächelndes Paar hält auf einer Steinterrasse ein Damneth-Tours-Schild, dahinter ein Wasserfall und grüne Hügel"
+  },
+  "fr": {
+    "title": "Nos voyageurs avec la pancarte Damneth Tours",
+    "alt": "Un couple souriant tient une pancarte Damneth Tours sur un belvédère en pierre, avec une cascade et des collines vertes derrière lui"
+  },
+  "ru": {
+    "title": "Наши гости с табличкой Damneth Tours",
+    "alt": "Улыбающаяся пара с табличкой Damneth Tours на каменной смотровой площадке, а за ними водопад и зелёные холмы"
+  },
+  "he": {
+    "title": "האורחים שלנו עם השלט של Damneth Tours",
+    "alt": "זוג מחייך מחזיק שלט של Damneth Tours על נקודת תצפית מאבן, ומאחוריו מפל וגבעות ירוקות"
+  }
+}

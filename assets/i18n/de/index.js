@@ -135,6 +135,8 @@
     "24729e09": "Freundliche Worte von unterwegs",
     "771025ea": "Wörtlich zitiert, so wie unsere Gäste sie (auf Englisch) geschrieben haben.",
     "d6789664": "zufriedene Reisende – und es werden mehr",
+    "17c1730a": "Ein lächelndes Paar hält auf einem Aussichtspunkt ein Damneth-Tours-Schild, dahinter ein Wasserfall und grüne Hügel",
+    "9d7307ee": "Unsere Gäste mit dem Damneth-Tours-Schild",
     "5071a29f": "Zwei Gäste halten ein Damneth-Tours-Schild, während ein Elefant seinen Rüssel über ihre Köpfe hebt",
     "90c77409": "Rüssel hoch für die Kamera",
     "463d90f6": "Glückliche Kunden mit dem Damneth-Tours-Schild",

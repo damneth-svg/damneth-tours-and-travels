@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "Guests and their driver-guide at the viewpoint",
+    "alt": "Two guests and their smiling driver-guide posing together on a stone viewpoint, with a waterfall and green hills behind",
+    "type": "image",
+    "category": "hills",
+    "with_guests": true,
+    "order": 52,
+    "image": "/assets/images/gallery/gal-couple-driver-viewpoint-900.webp"
+  },
+  "de": {
+    "title": "Gäste und ihr Fahrer-Guide am Aussichtspunkt",
+    "alt": "Zwei Gäste und ihr lächelnder Fahrer-Guide posieren auf einer Steinterrasse, dahinter ein Wasserfall und grüne Hügel"
+  },
+  "fr": {
+    "title": "Voyageurs et leur chauffeur-guide au belvédère",
+    "alt": "Deux voyageurs et leur chauffeur-guide souriant posent ensemble sur un belvédère en pierre, avec une cascade et des collines vertes derrière"
+  },
+  "ru": {
+    "title": "Гости и их водитель-гид на смотровой площадке",
+    "alt": "Двое гостей и улыбающийся водитель-гид позируют на каменной смотровой площадке, позади водопад и зелёные холмы"
+  },
+  "he": {
+    "title": "אורחים והנהג־מדריך שלהם בנקודת התצפית",
+    "alt": "שני אורחים והנהג־מדריך המחייך שלהם מצטלמים יחד על נקודת תצפית מאבן, עם מפל וגבעות ירוקות ברקע"
+  }
+}

@@ -135,6 +135,8 @@
     "24729e09": "Quelques mots de la route",
     "771025ea": "Cités mot pour mot, tels que nos voyageurs les ont écrits (en anglais).",
     "d6789664": "voyageurs satisfaits, et ce n’est pas fini",
+    "17c1730a": "Un couple souriant tient une pancarte Damneth Tours sur un belvédère, avec une cascade et des collines vertes derrière lui",
+    "9d7307ee": "Nos voyageurs avec la pancarte Damneth Tours",
     "5071a29f": "Deux voyageurs tiennent une pancarte Damneth Tours pendant qu’un éléphant lève sa trompe au-dessus de leurs têtes",
     "90c77409": "Trompe levée pour la photo",
     "463d90f6": "Des clients ravis avec la pancarte Damneth Tours",

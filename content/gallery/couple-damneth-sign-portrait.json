@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "Happy travellers at the waterfall view",
+    "alt": "A couple holding a Damneth Tours sign on a viewpoint, with a waterfall in the valley and a green mountain behind",
+    "type": "image",
+    "category": "hills",
+    "with_guests": true,
+    "order": 38,
+    "image": "/assets/images/gallery/gal-couple-damneth-sign-portrait-900.webp"
+  },
+  "de": {
+    "title": "Glückliche Reisende am Wasserfall-Aussichtspunkt",
+    "alt": "Ein Paar hält auf einem Aussichtspunkt ein Damneth-Tours-Schild, im Tal ein Wasserfall und dahinter ein grüner Berg"
+  },
+  "fr": {
+    "title": "Voyageurs heureux au belvédère de la cascade",
+    "alt": "Un couple tient une pancarte Damneth Tours sur un belvédère, avec une cascade dans la vallée et une montagne verte derrière"
+  },
+  "ru": {
+    "title": "Счастливые путешественники у вида на водопад",
+    "alt": "Пара с табличкой Damneth Tours на смотровой площадке, в долине водопад, а позади зелёная гора"
+  },
+  "he": {
+    "title": "מטיילים מאושרים בתצפית על המפל",
+    "alt": "זוג מחזיק שלט של Damneth Tours בנקודת תצפית, עם מפל בעמק והר ירוק ברקע"
+  }
+}
